@@ -4,3 +4,4 @@
 .eslintrc.js
 rollup.config.js
 commitlint.config.js
+packages/*/dist/

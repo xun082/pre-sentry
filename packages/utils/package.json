@@ -6,10 +6,13 @@
   "module": "dist/index.esm.js",
   "types": "dist/index.d.ts",
   "scripts": {
-    "build": "rollup -c --bundleConfigAsCjs"
+    "build": "rollup -c --bundleConfigAsCjs",
+    "dev": "rollup -c -w --bundleConfigAsCjs"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "devDependencies": {}
+  "devDependencies": {
+    "@pref-sentry/types": "workspace:*"
+  }
 }
