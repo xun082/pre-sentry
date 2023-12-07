@@ -3,7 +3,7 @@
   "version": "0.0.15",
   "description": "@pref-sentry/types",
   "license": "MIT",
-  "author": "LuciferHuang",
+  "author": "Moment",
   "main": "./dist/index.js",
   "module": "./dist/index.js",
   "types": "./dist/index.d.ts",

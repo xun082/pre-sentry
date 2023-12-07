@@ -25,6 +25,7 @@ module.exports = {
     "no-unused-vars": "off",
     "@typescript-eslint/no-unused-vars": ["error"],
     "no-undef": 0,
+    "@typescript-eslint/no-explicit-any": 0,
     "no-multiple-empty-lines": ["error", { max: 1 }],
     "no-var": 2, // 禁止使用 var 声明变量
     "prefer-rest-params": 2, // 要求使用剩余参数而不是 arguments
