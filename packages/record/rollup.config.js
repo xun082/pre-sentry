@@ -13,7 +13,7 @@ export default [
       },
     ],
     plugins: [typescript(), del({ targets: "dist/*" }), terser()],
-    external: [],
+    external: ["rrweb", "@pref-sentry/types", "@pref-sentry/utils"],
   },
   {
     // 生成一个单独的 index.d.ts

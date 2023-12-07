@@ -66,29 +66,35 @@ importers:
         specifier: ^2.6.2
         version: 2.6.2
       turbo:
-        specifier: latest
+        specifier: ^1.10.16
         version: 1.10.16
       typescript:
         specifier: ^5.3.2
         version: 5.3.2
 
-  packages/core: {}
-
-  packages/record:
+  packages/core:
     dependencies:
-      '@rrweb/types':
-        specifier: 2.0.0-alpha.11
-        version: 2.0.0-alpha.11
-      rrweb:
-        specifier: 2.0.0-alpha.4
-        version: 2.0.0-alpha.4
-    devDependencies:
       '@pref-sentry/types':
         specifier: workspace:*
         version: link:../types
       '@pref-sentry/utils':
         specifier: workspace:*
         version: link:../utils
+
+  packages/record:
+    dependencies:
+      '@pref-sentry/types':
+        specifier: workspace:*
+        version: link:../types
+      '@pref-sentry/utils':
+        specifier: workspace:*
+        version: link:../utils
+      '@rrweb/types':
+        specifier: 2.0.0-alpha.11
+        version: 2.0.0-alpha.11
+      rrweb:
+        specifier: 2.0.0-alpha.4
+        version: 2.0.0-alpha.4
 
   packages/types: {}
 

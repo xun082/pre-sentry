@@ -1,4 +1,5 @@
-import { StoreType, StoreTypes, TAG } from "@pref-sentry/types";
+import { StoreType, TAG } from "@pref-sentry/types";
+import type { StoreTypes } from "@pref-sentry/types";
 
 function getStoreIns(type: StoreTypes) {
   let store = null;

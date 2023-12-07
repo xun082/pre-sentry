@@ -13,7 +13,7 @@ export default [
       },
     ],
     plugins: [typescript(), del({ targets: "dist/*" }), terser()],
-    external: [],
+    external: ["@pref-sentry/types"],
   },
   {
     // 生成一个单独的 index.d.ts

@@ -1,4 +1,4 @@
-import { IAnyObject } from "@pref-sentry/types";
+import type { IAnyObject } from "@pref-sentry/types";
 
 /**
  * 生成UUID

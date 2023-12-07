@@ -1,5 +1,6 @@
 import { record } from "rrweb";
-import { BasePluginType, EventTypes, ReportDataType, BrowserReportType } from "@pref-sentry/types";
+import type { BasePluginType, ReportDataType } from "@pref-sentry/types";
+import { EventTypes, BrowserReportType } from "@pref-sentry/types";
 import { recordOptions } from "rrweb/typings/types";
 import { formatDate, generateUUID, countBytes } from "@pref-sentry/utils";
 import { eventWithTime } from "@rrweb/types";
@@ -95,4 +96,5 @@ function recordPlugin(options?: recordOptions<eventWithTime>): BasePluginType {
     },
   };
 }
+
 export default recordPlugin;

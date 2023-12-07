@@ -12,12 +12,11 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "devDependencies": {
-    "@pref-sentry/types": "workspace:*",
-    "@pref-sentry/utils": "workspace:*"
-  },
+  "devDependencies": {},
   "dependencies": {
     "@rrweb/types": "2.0.0-alpha.11",
-    "rrweb": "2.0.0-alpha.4"
+    "rrweb": "2.0.0-alpha.4",
+    "@pref-sentry/types": "workspace:*",
+    "@pref-sentry/utils": "workspace:*"
   }
 }

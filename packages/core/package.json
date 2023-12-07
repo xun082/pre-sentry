@@ -12,5 +12,8 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "devDependencies": {}
+  "dependencies": {
+    "@pref-sentry/types": "workspace:*",
+    "@pref-sentry/utils": "workspace:*"
+  }
 }

@@ -1,4 +1,5 @@
-import { IAnyObject, MethodTypes } from "@pref-sentry/types";
+import type { IAnyObject } from "@pref-sentry/types";
+import { MethodTypes } from "@pref-sentry/types";
 
 import { obj2query } from "./base";
 
