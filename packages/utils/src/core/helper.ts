@@ -108,7 +108,7 @@ export function throttle<T extends (...args: any[]) => any>(
 export function replaceOld<T extends IAnyObject, K extends keyof T>(
   source: T,
   name: K,
-  replacement: (original: T[K]) => T[K],
+  replacement: (...args: any[]) => any,
   isForced?: boolean,
 ): void {
   if (source === undefined) return;

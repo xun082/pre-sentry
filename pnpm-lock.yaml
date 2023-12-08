@@ -81,6 +81,15 @@ importers:
         specifier: workspace:*
         version: link:../utils
 
+  packages/history:
+    dependencies:
+      '@pref-sentry/types':
+        specifier: workspace:*
+        version: link:../types
+      '@pref-sentry/utils':
+        specifier: workspace:*
+        version: link:../utils
+
   packages/record:
     dependencies:
       '@pref-sentry/types':

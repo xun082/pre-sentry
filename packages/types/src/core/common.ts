@@ -1,7 +1,5 @@
 export type VoidFunction = () => void;
 
-export interface IAnyObject {
-  [key: string]: unknown;
-}
+export type IAnyObject = { [key: string]: unknown } | History;
 
 export type UnknownFunc = (...args: unknown[]) => unknown;

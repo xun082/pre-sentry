@@ -1,0 +1,17 @@
+{
+  "name": "history",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "rollup -c --bundleConfigAsCjs",
+    "dev": "rollup -c -w --bundleConfigAsCjs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@pref-sentry/types": "workspace:*",
+    "@pref-sentry/utils": "workspace:*"
+  }
+}
